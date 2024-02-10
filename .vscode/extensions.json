@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "vscjava.vscode-java-dependency",
+        "vscjava.vscode-java-test",
+        "visualstudioexptteam.vscodeintellicode",
+        "vscjava.vscode-java-debug",
+        "visualstudioexptteam.intellicode-api-usage-examples",
+        "dsnake.java-debug",
+        "redhat.java",
+        "vscjava.vscode-java-pack",
+        "esbenp.prettier-vscode"
+    ]
+}

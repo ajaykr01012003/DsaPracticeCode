@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+</head>
+<body>
+    name: <i id="result"></i> <br><br>
+    <button onclick="call()">Call</button>
+</body>
+<script>
+function call(){
+    var name=prompt("hello how can i help you","");
+    document.getElementById('result').innerHTML=name;
+}
+</script>
+</html>

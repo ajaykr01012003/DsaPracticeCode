@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            width: 30%;
+            height: 30px;
+            font-size: 20px;
+            color: red;
+            margin-top: 50px;
+            text-align: center;
+            border: 2px dashed black;
+            cursor: pointer;
+            transition: all;
+        }
+    </style>
+</head>
+<body>
+    <div id="main" onmouseenter="modify()" onmouseout="unmodify()">
+        Hello ajay Kumar
+    </div>
+</body>
+<script>
+    function modify(){
+        document.getElementById('main').style.fontSize="100px";
+        document.getElementById('main').style.color="blue";
+        document.getElementById('main').style.fontFamily="verdana";
+    }
+    function Unmodify(){
+        document.getElementById('main').style.fontSize="50px";
+        document.getElementById('main').style.color="yellow";
+        document.getElementById('main').style.fontFamily="";
+    }
+</script>
+</html>

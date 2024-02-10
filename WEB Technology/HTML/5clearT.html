@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+      var aj;
+     function start(){
+        
+  aj= setTimeout(
+    function(){
+        document.write("<h1>time start hello</h1>");
+    },5000
+   );
+   
+}
+function stop(){
+    clearTimeout(aj);
+    alert('time stop');
+}
+</script>
+
+</head>
+<body>
+   <button onclick="start()">start</button>
+   <button onclick="stop()">stop</button>
+</body>
+ 
+</html>
